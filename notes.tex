@@ -2010,7 +2010,7 @@ Before proving the above abstract form of the Hahn--Banach theorem, we present s
 \end{cor}
 
 \begin{proof}
-  (a) Since $\phi_0$ is a bounded linear functional on $Y$, there exists some $M$ such that $\phi(y)\leq M\|y\|$ for all $y\in Y$. We may therefore apply the Hahn--Banach theorem with the sublinear functional $p(x)=M\|x\|$. Thus $\phi_0$ extends to a linear functional $\phi$ on $X$ such that $\phi(x)\leq M\|x\|$. In particular, $\phi$ is bounded too.
+  (a) Since $\phi_0$ is a bounded linear functional on $Y$, there exists some $M$ such that $\phi_0(y)\leq M\|y\|$ for all $y\in Y$. We may therefore apply the Hahn--Banach theorem with the sublinear functional $p(x)=M\|x\|$. Thus $\phi_0$ extends to a linear functional $\phi$ on $X$ such that $\phi(x)\leq M\|x\|$. In particular, $\phi$ is bounded too.
 
   (b) We first define a function $\phi_0$ on the space $Y+\RR z$ which is bounded by $p=$ the norm. For this we will let $\phi_0(y+cz)=c\phi_0(z)$ where $\phi_0(z)$ remains to be determined. In order to satisfy $\phi_0(y+cz)\leq\|y+cz\|$ we require that $c\phi_0(z)\leq\|y+cz\|$ for all $y\in Y$.
 
@@ -2523,7 +2523,7 @@ Perhaps the most important feature of Hilbert spaces that is not present in an o
 The orthogonal complement does not always behave as one would expect from classical Euclidean space. For example, if $Y$ is a dense subspace of $X$ then $Y^\perp=0$. However if $Y$ is a closed subspace, then the familiar properties hold.
 
 \begin{prop}
-  Let $X$ be a Hilbert space and let $Y\leq X$ be a closed subspace. Then $X=Y\oplus Y^\perp$ in the sense that every $x\in X$ can be uniqely expressed as $x=y+y'$ where $y\in Y$ and $Y'\in Y^\perp$.
+  Let $X$ be a Hilbert space and let $Y\leq X$ be a closed subspace. Then $X=Y\oplus Y^\perp$ in the sense that every $x\in X$ can be uniqely expressed as $x=y+y'$ where $y\in Y$ and $y'\in Y^\perp$.
 \end{prop}
 
 The idea behind the proof is as follows. Given $x$, let $y\in Y$ be the unique point in $Y$ which is closest to $x$. Such a point $y$ exists and is unique thanks to the familiar geometry of Hilbert space.
